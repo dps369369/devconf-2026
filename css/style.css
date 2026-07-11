@@ -119,7 +119,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -135,6 +135,8 @@
 .speaker-card img {
     width: 100%;
     height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
    
 }
 
@@ -160,4 +162,73 @@
 .speaker-info p {
     color: #666;
     font-size: 16px;
+}
+
+
+/* PRICING */
+.pricing{
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.pricing p{
+    color: #666;
+
+}
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.pricing-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: left;
+
+}
+
+.pricing-card span {
+    color: #666;
+}
+
+.pricing-card h3 {
+    color:#666;
+    font-size: 14px;
+}
+
+.pro h3 {
+    color:rgb(127, 101, 241);
+    font-size: 14px;
+}
+
+.pricing-card h4 {
+    font-size: 3rem;
+    margin: 15px 0;
+}
+.pricing-card li::marker {
+    color: blue;
+}
+.pricing-card li{
+    font-size: 10px;
+}
+
+
+.pricing-card button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.pricing-card.pro {
+    background-color: #0f172a;
+    color: white;
+}
+.pro button {
+    background-color: blue;
+    color: white;
+    border: none;
 }
