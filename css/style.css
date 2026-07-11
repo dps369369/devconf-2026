@@ -1,4 +1,9 @@
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 /* NABGATION FIELD */
 
 .navbar ul {
@@ -162,6 +167,34 @@
     color: #666;
     font-size: 16px;
 }
+
+/* BUTTON HOVER */
+
+#hero-button:hover {
+    background-color: #1d4ed8;
+}
+
+#nav-button:hover {
+    background-color: #1d4ed8;
+}
+
+.pricing-card button:hover {
+    background-color: #1d4ed8;
+}
+
+.hackathon-button:hover {
+    background-color: #1d4ed8;
+}
+
+#hero-button,
+#nav-button,
+.pricing-card button,
+.hackathon-button {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 
 
 /* PRICING */
