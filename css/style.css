@@ -21,9 +21,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  /* for now broder # is not in msin */
-  border: 2px solid black;
-  background-color: white;
+  border: 1px solid #ddd;
+  background-color: white; */
 }
 
 
@@ -231,4 +230,46 @@
     background-color: blue;
     color: white;
     border: none;
+}
+
+
+/*  FOOTER */
+
+.footer{
+    background-color: #0f172a;
+    color: white;
+    padding: 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 120px;
+}
+
+.social-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px solid #334155;
+    margin: 30px 0;
+}
+
+
+.copyright {
+    text-align: center;
+    color: #94a3b8;
+}
+
+
+.social-links img {
+    width: 30px;
+    height: 30px;
 }
